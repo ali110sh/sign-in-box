@@ -1,0 +1,79 @@
+
+.main{
+    background-color: white;
+    margin:  0 auto 30% auto;
+    width: 45%;
+    min-width: 220px;
+    height: 40%;
+    border-radius: 10px;
+    max-height: 280px;
+    max-width: 220px;
+    min-height: 200;
+
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    display: block;
+    margin-top: 20%;
+     margin-bottom: 20px;
+    border-radius: 10%
+}
+
+body{
+    background-color: rgb(242, 241, 255); 
+}
+.input-box{
+    margin: 0 auto 15px auto;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    width: 80%
+
+
+}
+.input{
+    width:70%;
+    font-family: iran;
+    float: left;
+    border: none;
+    margin-left: 10%;
+    font-size: 10px;
+    text-align: right;
+    height: 10%;
+}
+.material-icons{
+    width: 10%;
+    color:rgb(23, 23, 255);
+    font-size: 8px;
+}
+.button{
+    width: 80%;
+    border: none;
+    background-color:rgb(23, 23, 255);
+    color: white;
+    border-radius: 2px;
+    margin-left: 10%;
+    font-family: iran;
+}
+h3{
+    text-align: center;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    font-family: iran;
+}
+p{
+    text-align: center;
+    font-size: 8;
+    font-family: iran;
+}
+@font-face{
+    font-family: iran;
+    src: url( IRANSansWeb.woff);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+div.input-box:focus {
+    border: 2px solid rgb(89, 0, 255)
+}
